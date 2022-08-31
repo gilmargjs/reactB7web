@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
+
 const App = () => {
   //parametro inicial
-  const [name, setName] = useState('');
+  const [name, setName] = useState('')
 
   const handleInput = (event:React.ChangeEvent<HTMLInputElement>) => {
 
-    setName( event.target.value);
-  };
+    setName( event.target.value)
+  }
 
 
   return (
