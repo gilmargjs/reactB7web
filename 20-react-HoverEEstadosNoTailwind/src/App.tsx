@@ -2,9 +2,9 @@
 const App = () => {
 
   return (
-    <div className="bg-blue-900 text-white p-4 text-2x1 font-bold flex flex-col text-center md:justify-between	 md:flex-row md:text-green-500 lg:text-black lg:justify-between	">
-      Texto Qualquer Aqui
-      <button className="bg-green-300	text-black p-2 rounded-x1	mt-3  md:ml-3 md:mt-0">Click Aqui</button>
+    <div className="bg-blue-300 p-5">
+      <input type="text" placeholder="Digite Algunha Coisa" className="outline-none border border-transparent rounded p-3 focus:ring-1 focus:ring-blue-700 " />
+      <button className="bg-green-500 hover:text-white md:hover:bg-blue-600 text-black ml-3 font-bold">click aqui</button>
     </div>
   
   )
